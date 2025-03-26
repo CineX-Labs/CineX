@@ -54,7 +54,7 @@ module.exports = {
   etherscan: {
     apiKey: {
       sepolia: ETHERSCAN_API_KEY,
-      ethereum: ETHERSCAN_API_KEY
+      mainnet: ETHERSCAN_API_KEY
     }
   }
 };

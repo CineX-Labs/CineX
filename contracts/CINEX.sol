@@ -89,15 +89,15 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
         _mint(address(this), INITIAL_SUPPLY);
         isMintDisabled = true;
 
-        _transfer(address(this), liquidityWallet, INITIAL_SUPPLY * 15 / 100);
-        _transfer(address(this), debtManagementWallet, INITIAL_SUPPLY * 27 / 100);
-        _transfer(address(this), acquisitionWallet, INITIAL_SUPPLY * 23 / 100);
-        _transfer(address(this), developmentWallet, INITIAL_SUPPLY * 5 / 100);
-        _transfer(address(this), communityWallet, INITIAL_SUPPLY * 5 / 100);
-        _transfer(address(this), reserveWallet, INITIAL_SUPPLY * 5 / 100);
-        _transfer(address(this), marketingWallet, INITIAL_SUPPLY * 5 / 100);
-        _transfer(address(this), teamWallet, INITIAL_SUPPLY * 5 / 100);
-        _burn(address(this), INITIAL_SUPPLY * 10 / 100);
+        _transfer(address(this), liquidityWallet, (INITIAL_SUPPLY * 15) / 100);
+        _transfer(address(this), debtManagementWallet, (INITIAL_SUPPLY * 27) / 100);
+        _transfer(address(this), acquisitionWallet, (INITIAL_SUPPLY * 23) / 100);
+        _transfer(address(this), developmentWallet, (INITIAL_SUPPLY * 5) / 100);
+        _transfer(address(this), communityWallet, (INITIAL_SUPPLY * 5) / 100);
+        _transfer(address(this), reserveWallet, (INITIAL_SUPPLY * 5) / 100);
+        _transfer(address(this), marketingWallet, (INITIAL_SUPPLY * 5) / 100);
+        _transfer(address(this), teamWallet, (INITIAL_SUPPLY * 5) / 100);
+        _burn(address(this), (INITIAL_SUPPLY * 10) / 100);
 
         isFeeFree[liquidityWallet] = true;
         isFeeFree[debtManagementWallet] = true;
@@ -122,7 +122,7 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
     }
 
     /// @notice Return current swap fee in bps
-    function getFee() public view returns(uint256) {
+    function getFee() public view returns (uint256) {
         return block.timestamp >= swapFeeChangeTime ? 2000 : 6000;
     }
 
@@ -131,7 +131,7 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
      * @param account Account to add/remove from the fee free list
      * @param add Add=true, Remove=false
      */
-    function setFeeFreeList(address account, bool add) onlyOwner external {
+    function setFeeFreeList(address account, bool add) external onlyOwner {
         if (account == address(0)) revert ZeroAddress();
         isFeeFree[account] = add;
 
@@ -143,7 +143,7 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
      * @param account Account to add/remove from the fee free list
      * @param add Add=true, Remove=false
      */
-    function setTransferRestrictionFreeList(address account, bool add) onlyOwner external {
+    function setTransferRestrictionFreeList(address account, bool add) external onlyOwner {
         if (account == address(0)) revert ZeroAddress();
         isTransferRestrictionFree[account] = add;
 
@@ -155,7 +155,7 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
      * @param pool Pool to add/remove from the pool with fee list
      * @param add Add=true, Remove=false
      */
-    function setPoolWithFeeList(address pool, bool add) onlyOwner external {
+    function setPoolWithFeeList(address pool, bool add) external onlyOwner {
         if (pool == address(0)) revert ZeroAddress();
         isPoolWithFee[pool] = add;
 
@@ -201,7 +201,7 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
                 feeAmount = _getAndDistributeFee(from, amount);
             }
         }
-        
+
         _transfer(from, to, amount - feeAmount);
 
         return true;
@@ -214,9 +214,9 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
     }
 
     /// @dev The function calculates, collects and distributes the commission between certain addresses
-    function _getAndDistributeFee(address from, uint256 amount) internal returns(uint256 fee) {
-        fee = amount * getFee() / PCT_DIV;
-        uint256 liquidityAmount = block.timestamp >= swapFeeChangeTime ? fee / 2 : fee * 2 / 3;
+    function _getAndDistributeFee(address from, uint256 amount) internal returns (uint256 fee) {
+        fee = (amount * getFee()) / PCT_DIV;
+        uint256 liquidityAmount = block.timestamp >= swapFeeChangeTime ? fee / 2 : (fee * 2) / 3;
 
         _transfer(from, liquidityWallet, liquidityAmount);
         _transfer(from, developmentWallet, fee - liquidityAmount);
@@ -232,6 +232,6 @@ contract CINEX is Initializable, ERC20Upgradeable, Ownable2StepUpgradeable, Paus
     /**
      * @dev Override the function as stated in the documentation for the UUPSUpgradeable contract
      *   to include access restriction to the upgrade mechanism.
-    */
+     */
     function _authorizeUpgrade(address) internal override onlyOwner {}
 }

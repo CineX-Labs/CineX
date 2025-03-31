@@ -1,14 +1,10 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("hardhat-deploy");
 require("hardhat-deploy-ethers");
-require('@openzeppelin/hardhat-upgrades');
+require("@openzeppelin/hardhat-upgrades");
 require("dotenv").config();
 
-const {
-  ETHERSCAN_API_KEY,
-  ACC_PRIVATE_KEY,
-  ALCHEMY_API_KEY,
-} = process.env;
+const { ETHERSCAN_API_KEY, ACC_PRIVATE_KEY, ALCHEMY_API_KEY } = process.env;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -54,7 +50,7 @@ module.exports = {
   etherscan: {
     apiKey: {
       sepolia: ETHERSCAN_API_KEY,
-      mainnet: ETHERSCAN_API_KEY
-    }
-  }
+      mainnet: ETHERSCAN_API_KEY,
+    },
+  },
 };

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write '**/*.{sol,js,ts}' --plugin=prettier-plugin-solidity",
+    "prettier:check": "prettier --check '**/*.{sol,js,ts}' --plugin=prettier-plugin-solidity"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +17,9 @@
     "dotenv": "^16.4.7",
     "hardhat": "^2.22.18",
     "hardhat-deploy": "^0.12.4",
-    "hardhat-deploy-ethers": "^0.4.2"
+    "hardhat-deploy-ethers": "^0.4.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-solidity": "^1.4.2"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.2.0",

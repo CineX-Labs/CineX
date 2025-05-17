@@ -57,7 +57,7 @@ The CINEX contract is an ERC20 token with:
  
 ---
 
-Functions Overview: getFee
+getFee
 
 	•	Returns: The current swap commission rate.
  

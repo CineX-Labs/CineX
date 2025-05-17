@@ -3,7 +3,7 @@
 
 ## Introduction / Vision
 
-CineX introduces **CINE**, an upgradeable ERC‑20 utility token engineered to modernize the entertainment industry and catalyze the community-led acquisition of AMC Entertainment. By integrating immersive theater technology, blockchain transaction rails, and a creator-first funding framework, CineX unlocks a digitally-native evolution of cinema.
+CineX introduces **CINEX**, an upgradeable ERC‑20 utility token engineered to modernize the entertainment industry and catalyze the community-led acquisition of AMC Entertainment. By integrating immersive theater technology, blockchain transaction rails, and a creator-first funding framework, CineX unlocks a digitally-native evolution of cinema.
 
 Over 70% of the total token supply is securely locked in multisig-controlled reserves, structured to activate only upon acquisition milestones. CINE carries no equity or financial rights—its value is rooted in platform access, participation, and long-term engagement.
 
@@ -43,7 +43,7 @@ CineX removes legacy intermediaries and puts creative control and value flow on-
 
 ## Token Utility & Ecosystem
 
-CINE is a functional utility token designed for use across the CineX ecosystem. It is not an investment, equity stake, or speculative instrument.
+CINEX is a functional utility token designed for use across the CineX ecosystem. It is not an investment, equity stake, or speculative instrument.
 
 ### Utility Includes:
 
@@ -54,7 +54,7 @@ CINE is a functional utility token designed for use across the CineX ecosystem. 
 - **Staking**: access to services, campaigns, and creator perks  
 - **Future scope**: unlockable tools, streaming access, and Web3 integrations  
 
-**Legal Framing:** CINE confers no rights to profits, dividends, or company ownership. Its utility is strictly functional. All mechanics are designed to avoid securities designation.
+**Legal Framing:** CINEX confers no rights to profits, dividends, or company ownership. Its utility is strictly functional. All mechanics are designed to avoid securities designation.
 
 ## Tokenomics & Distribution
 
@@ -99,7 +99,7 @@ All non-circulating tokens are secured in multisig wallets with predefined unloc
 
 ## Compliance & Disclaimers
 
-This whitepaper is for informational purposes only. The CINE token is not a security. It grants no ownership, no dividends, and no equity claims. The platform includes KYC/AML for large transactions and intends to meet Coinbase, CoinGecko, and SEC compliance standards.
+This whitepaper is for informational purposes only. The CINEX token is not a security. It grants no ownership, no dividends, and no equity claims. The platform includes KYC/AML for large transactions and intends to meet Coinbase, CoinGecko, and SEC compliance standards.
 
 No guarantees are made about future profits, and this document does not constitute investment advice. Success depends on execution, participation, and regulatory clearance.
 

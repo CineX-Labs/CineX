@@ -110,3 +110,7 @@ CineX is not just a brand — it's a blueprint.
 With a tech-native foundation, legal clarity, and visionary structure, CineX offers a new model for unlocking cultural capital and rebuilding entertainment from the inside out.
 
 **We’re not here to play by old rules. We’re here to write new ones.**
+
+Website: [https://cinex.tech](https://cinex.tech)
+View Token on Etherscan: [CineX Token](https://etherscan.io/token/0x721562c04324b6751d411fd45e5360bbddaec353)  
+Join the Community: [CineX Discord](https://discord.gg/9yNZU2jU)  

@@ -5,7 +5,7 @@
 
 CineX introduces **CINEX**, an upgradeable ERC‑20 utility token engineered to modernize the entertainment industry and catalyze the community-led acquisition of AMC Entertainment. By integrating immersive theater technology, blockchain transaction rails, and a creator-first funding framework, CineX unlocks a digitally-native evolution of cinema.
 
-Over 70% of the total token supply is securely locked in multisig-controlled reserves, structured to activate only upon acquisition milestones. CINE carries no equity or financial rights—its value is rooted in platform access, participation, and long-term engagement.
+Over 70% of the total token supply is securely locked in multisig-controlled reserves, structured to activate only upon acquisition milestones. CINEX carries no equity or financial rights—its value is rooted in platform access, participation, and long-term engagement.
 
 ## The Problem with Current Entertainment Models
 

@@ -15,7 +15,7 @@ AMC, despite its scale, remains under-optimized for digital transformation. Its 
 
 ## The CineX Solution
 
-CineX introduces a new model—one built around programmable infrastructure, community-scaled capital, and immersive experiences. Through a carefully structured token system, reserve-backed vault mechanics, and DAO-driven governance, CineX enables:
+CineX introduces a new model—one built around programmable infrastructure, community-scaled capital, and immersive experiences. Through a carefully structured token system, reserve-backed vault mechanics, and limited DAO-driven governance, CineX enables:
 
 - A legal acquisition path for AMC, backed by tokenized reserves  
 - An immersive entertainment stack, from streaming to on-site perks  

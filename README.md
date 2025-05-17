@@ -103,6 +103,7 @@ unpause
 Smart Contracts Upgradeability
 
 The CineX Token uses OpenZeppelin’s upgradeable contract pattern. This ensures:
+
 	•	Seamless upgrades to contract logic without disrupting user balances
 	•	Continued extensibility and patching post-deployment
 	•	Robust proxy architecture for governance and evolution

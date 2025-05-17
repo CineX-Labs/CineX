@@ -113,7 +113,7 @@ The CineX Token uses OpenZeppelin’s upgradeable contract pattern. This ensures
 
 ## Licensing and Contribution
 
-This repository is maintained by the CineX Foundation. Contributions are currently closed to the public. All contracts are published for transparency and will be submitted for formal auditing. For security-related disclosures, contact: `contact@cinex.tech`.
+This repository is maintained by the CineX Foundation. Contributions are currently closed to the public. All contracts are published for transparency and will be submitted for formal auditing. For security-related disclosures, contact: `info@cinex.tech`.
 
 ---
 

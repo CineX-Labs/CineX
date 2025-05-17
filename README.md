@@ -23,8 +23,8 @@ This codebase supports the launch of the CineX Token and the on-chain infrastruc
 ## Key Links
 
 - Website: [https://cinex.tech](https://cinex.tech)  
-- Whitepaper: [CineX_Whitepaper](/docs/CineX_Whitepaper.pdf)  
-- One-Page Memo: [CineX_Memo.pdf](/docs/CineX_Memo.pdf)  
+- Whitepaper: [CineX_Whitepaper](/docs/CineX_Whitepaper.md)  
+- One-Page Memo: [CineX_Memo.pdf](/docs/CineX_Memo.md)  
 - Token Contract: [View on Etherscan](https://etherscan.io/token/0x721562c04324b6751d411fd45e5360bbddaec353)  
 - Community: [Join the CineX Discord](https://discord.gg/9yNZU2jU)
 

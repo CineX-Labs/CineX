@@ -53,7 +53,7 @@ No incumbent studio or chain currently integrates:
 Holographic screens, immersive AR/VR hubs, and upgraded flagship theaters bring audiences back through future-forward spectacle.
 
 ### Token Infrastructure  
-On-chain ticketing, programmable loyalty, and digital content rewards tied to the CINE token. Seamless integration with AMC and future partners.
+On-chain ticketing, programmable loyalty, and digital content rewards tied to the CINEX token. Seamless integration with AMC and future partners.
 
 ### Community Marketplace & Wallet  
 CineX Wallet enables token holding, access to creator campaigns, staking, and rewards. A single, streamlined hub for community participation and trading.

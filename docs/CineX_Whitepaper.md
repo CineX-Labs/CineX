@@ -94,7 +94,7 @@ All non-circulating tokens are secured in multisig wallets with predefined unloc
 
 ### Phase 4: Product Ecosystem Expansion
 - Web3 trading platform  
-- Streaming access with token perks  
+- Launch of CineX streaming platform
 - Creator marketplace and digital collectibles  
 
 ### Phase 5: Extended Ecosystem 

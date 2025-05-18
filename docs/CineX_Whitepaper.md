@@ -1,6 +1,11 @@
 
 # CineX: Whitepaper — Final Strategic Edition (May 2025)
 
+**Website:** [cinex.tech](https://cinex.tech)  
+**Token:** $CINEX  
+**GitHub:** [github.com/alpheraz/CineX](https://github.com/alpheraz/CineX)  
+**Contract:** 0x721562c04324b6751d411fD45E5360BbddaeC353
+
 ## Introduction / Vision
 
 CineX introduces **CINEX**, an upgradeable ERC‑20 utility token engineered to modernize the entertainment industry and catalyze the community-led acquisition of AMC Entertainment. By integrating immersive theater technology, blockchain transaction rails, and a creator-first funding framework, CineX unlocks a digitally-native evolution of cinema.

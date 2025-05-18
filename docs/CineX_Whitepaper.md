@@ -95,7 +95,12 @@ All non-circulating tokens are secured in multisig wallets with predefined unloc
 ### Phase 4: Product Ecosystem Expansion
 - Web3 trading platform  
 - Streaming access with token perks  
-- Creator marketplace and future gaming tools  
+- Creator marketplace and future gaming tools
+
+### Phase 5: Extended Ecosystem 
+- Gaming
+- international expansion 
+- IP onboarding
 
 ## Compliance & Disclaimers
 

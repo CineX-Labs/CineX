@@ -98,9 +98,9 @@ All non-circulating tokens are secured in multisig wallets with predefined unloc
 - Creator marketplace and digital collectibles  
 
 ### Phase 5: Extended Ecosystem 
-- Blockchain gaming integrations  
+- Creator-linked gaming marketplace  
 - International theater expansion  
-- Tokenized IP onboarding
+- Tokenized media IP campaigns  
 
 ## Compliance & Disclaimers
 

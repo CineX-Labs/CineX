@@ -84,23 +84,23 @@ All non-circulating tokens are secured in multisig wallets with predefined unloc
 
 ### Phase 2: Acquisition Strategy
 - Legal and strategic audit of AMC  
-- Stakeholder engagement and diligence  
-- Vault-controlled governance activation  
+- Acquisition planning and feasibility modeling  
+- Multisig-secured reserve alignment  
 
 ### Phase 3: Transformation & Restructure
 - Debt refinancing and lease optimization  
-- Token-powered flagship AMC location  
-- Launch of tokenized theater upgrades  
+- Relaunch of rebranded flagship theaters  
+- Tech-driven upgrades across AMC locations 
 
 ### Phase 4: Product Ecosystem Expansion
 - Web3 trading platform  
 - Streaming access with token perks  
-- Creator marketplace and future gaming tools
+- Creator marketplace and digital collectibles  
 
 ### Phase 5: Extended Ecosystem 
-- Gaming
-- international expansion 
-- IP onboarding
+- Blockchain gaming integrations  
+- International theater expansion  
+- Tokenized IP onboarding
 
 ## Compliance & Disclaimers
 

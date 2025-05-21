@@ -1,8 +1,8 @@
-# CineX Token
+# $CineX
 
 ## Transforming AMC. Redefining Ownership.
 
-CineX is a bold initiative to acquire and modernize AMC through blockchain, immersive technology, and decentralized ownership. This repository contains the core smart contract infrastructure for the CineX Token, the foundational asset powering a new era of audience-driven entertainment.
+CineX is a bold initiative to acquire and modernize AMC through blockchain, immersive technology, and decentralized ownership. This repository contains the core smart contract infrastructure for $CineX, the foundational asset powering a new era of audience-driven entertainment.
 
 ---
 
@@ -30,24 +30,12 @@ This codebase supports the launch of the CineX Token and the on-chain infrastruc
 
 ---
 
-## Repository Structure
-contracts/        # Core Solidity contracts
-scripts/          # Deployment and verification scripts
-test/             # Test suite
-docs/             # Whitepaper, memo, license
-README.md         # Project summary
-
----
-
-## Platform Architecture
+## Smart Contract Features
 
 - **CineX Token**: ERC20-compatible smart contract with swap fee and cooldown logic  
 - **Upgradeable Contracts**: Built using OpenZeppelin proxy pattern  
 - **Ecosystem Integration**: Designed for use with both theatrical and digital experiences  
 
----
-
-## Contract Description
 
 The CINEX contract is an ERC20 token with:
 

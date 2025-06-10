@@ -70,5 +70,5 @@ CineX Wallet enables token holding, access to creator campaigns, staking, and re
 - Website: [https://cinex.tech](https://cinex.tech)  
 - Whitepaper: [CineX Whitepaper](/docs/CineX_Whitepaper.md)  
 - Etherscan Token Page: [View CineX](https://etherscan.io/token/0x721562c04324b6751d411fd45e5360bbddaec353)  
-- Discord Community: [Join the CineX Discord](https://discord.gg/9yNZU2jU)  
+- Discord Community: [Join the CineX Discord]([https://discord.com/invite/cscb5HcsdN))  
 - Token Contract GitHub: [View CineX Code Repository](https://github.com/alpheraz/CineX)

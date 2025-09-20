@@ -148,4 +148,4 @@ Website: [https://cinex.tech](https://cinex.tech)
 
 View Token on Etherscan: [CineX Token](https://etherscan.io/token/0x721562c04324b6751d411fd45e5360bbddaec353)
   
-Join the Community: [CineX Discord](https://discord.gg/9yNZU2jU)  
+Join the Community: [CineX Discord](https://discord.com/invite/cscb5HcsdN)  
